@@ -1,0 +1,13 @@
+<center><h1 class="title" data-bind="title"></h1></center>
+<p class="change-rate">
+GPA<h1><span class="value" data-bind="current | shortenedNumber | prepend prefix"></span></h1>
+</p>
+Test Coverage : <span data-bind="percent_covered | shortenedNumber | prepend prefix"></span>%
+
+<p class="change-rate">
+  <i data-bind-class="arrow"></span>
+</p>
+
+<p class="more-info" data-bind="moreinfo | raw"></p>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>
